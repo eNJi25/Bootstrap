@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Tableau sans Bootstrap</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tableau avec Bootstrap</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tableau avec Bootstrap et une ligne sur 2 stylisée</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tableau avec Bootstrap et une colonne sur 2 stylisée</h2>
+        <table class="table table-striped-columns">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tableau avec Bootstrap et une couleur primary</h2>
+        <!-- Possibilité de le faire avec secondary ou avec directement une couleur aussi -->
+        <!-- Possibilité de combiner primary et stripped par exemple -->
+        <table class="table table-primary table-striped">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tablea avec hover au survolement de la souris</h2>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Possibilité de mettre les lignes en couleur primary -->
+                <tr class="table-primary">
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <!-- Mettre une ligne en évidence -->
+                <tr class="table-danger">
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h2>Tableau avec bordures</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Eva</th>
+                    <th>Kodet</th>
+                    <th>25</th>
+                </tr>
+                <tr>
+                    <th>Jean</th>
+                    <th>Courage</th>
+                    <th>30</th>
+                </tr>
+                <tr>
+                    <th>Alain</th>
+                    <th>Dupont</th>
+                    <th>45</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
